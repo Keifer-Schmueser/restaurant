@@ -1,0 +1,33 @@
+html {
+  background-color: darkgray;
+}
+
+img {
+  position: fixed;
+  margin-left: 78%;
+}
+
+h2 {
+  font-size: 20px;
+  margin-left: 50px;
+  font-weight: 100;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: none;
+  justify-items: auto;
+  align-items: center;
+}
+
+.tabs {
+  width: 100px;
+  border: solid;
+  border-color: black;
+}
+
+.tabs:hover {
+  background-color: black;
+  color: white;
+}
